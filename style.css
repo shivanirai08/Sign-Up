@@ -98,10 +98,22 @@ span{
 }
 .t_c{
     display: flex;
-    gap: 10px;
+    gap: 0px;
     align-items: center;
-    margin: 20px 0px;
+    justify-content: center;
+    margin: 20px 10px;
     color: white;
+    text-align: center;
+}
+@media screen and (min-width:353px){
+    .t_c{
+        gap: 10px;
+    }
+}
+@media screen and (min-width:348px){
+    .t_c{
+        gap: 5px;
+    }
 }
 #tc{
     height: 10px;
@@ -122,6 +134,7 @@ span{
     padding: 20px;
     font-size: 18px;
     color: white;
+    text-align: center;
 }
 .login a{
     color: white;
