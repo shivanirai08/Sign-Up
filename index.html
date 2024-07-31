@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="get" class="myform">
+            <div class="heading">
+                Sign Up
+            </div>
+            <div class="box1">
+                <!-- <label for="text">Name</label> -->
+                <input type="text" name="fnaam" class="fnaam" placeholder="First Name">
+                <input type="text" name="lnaam" class="lnaam" placeholder="Last Name">
+            </div>
+            <span class="name"></span>
+            <div class="box">
+                <!-- <label for="mail">Email Id</label> -->
+                <input type="email" name="mail" placeholder="Email">
+                <span class="email"></span>
+            </div>
+            <div class="box">
+                <!-- <label for="password">Password</label> -->
+                <input type="password" name="password" placeholder="Password">
+                <span class="password"></span>
+            </div>
+            <div class="box">
+                <!-- <label for="eq_password"></label> -->
+                <input type="password" name="eq_password" placeholder="Confirm Password">
+                <span class="re_pw"></span>
+            </div>
+            <div class="t_c">
+                <input type="checkbox" name="tc" id="tc"><label for="tc">I accept the Terms of Use & Privacy
+                    Policy</label>
+                </div>
+            <input type="button" value="Sign Up" class="btn" name="submit">
+                <div class="login">Already have an account?<a href="#">Login here</a></div>
+                <footer>Copyright &copy; YourCompany.com</footer>
+            </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
